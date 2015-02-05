@@ -1,0 +1,2 @@
+# ResourceHelper
+Search resource files
