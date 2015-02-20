@@ -89,6 +89,10 @@ namespace ResourceHelper
 
         private void lstKeys_SelectedIndexChanged(object sender, EventArgs e)
         {
+            const string resourceTempalte = "  <data name=\"{0}\" xml:space=\"preserve\">\r\n" +
+                                            "    <value>{1}</value>\r\n" +
+                                            "  </data>\r\n";
+
             int index = lstKeys.SelectedIndex;
             if (index >= 0)
             {
@@ -98,7 +102,7 @@ namespace ResourceHelper
                     var output = "";
                     foreach (var translation in keys[key].Translations)
                     {
-                        output += translation + Environment.NewLine;
+                        output += String.Format(resourceTempalte, key, translation) + Environment.NewLine;
                     }
                     txtOutput.Text = output;
                 }

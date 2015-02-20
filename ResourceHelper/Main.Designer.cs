@@ -39,7 +39,7 @@
             this.lstKeys.FormattingEnabled = true;
             this.lstKeys.Location = new System.Drawing.Point(12, 38);
             this.lstKeys.Name = "lstKeys";
-            this.lstKeys.Size = new System.Drawing.Size(243, 290);
+            this.lstKeys.Size = new System.Drawing.Size(414, 290);
             this.lstKeys.TabIndex = 1;
             this.lstKeys.SelectedIndexChanged += new System.EventHandler(this.lstKeys_SelectedIndexChanged);
             // 
@@ -47,7 +47,7 @@
             // 
             this.txtFilter.Location = new System.Drawing.Point(12, 12);
             this.txtFilter.Name = "txtFilter";
-            this.txtFilter.Size = new System.Drawing.Size(243, 20);
+            this.txtFilter.Size = new System.Drawing.Size(414, 20);
             this.txtFilter.TabIndex = 0;
             // 
             // txtOutput
@@ -55,7 +55,7 @@
             this.txtOutput.Location = new System.Drawing.Point(12, 347);
             this.txtOutput.Multiline = true;
             this.txtOutput.Name = "txtOutput";
-            this.txtOutput.Size = new System.Drawing.Size(243, 106);
+            this.txtOutput.Size = new System.Drawing.Size(414, 207);
             this.txtOutput.TabIndex = 2;
             // 
             // label1
@@ -71,7 +71,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(271, 465);
+            this.ClientSize = new System.Drawing.Size(438, 564);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.txtOutput);
             this.Controls.Add(this.txtFilter);
